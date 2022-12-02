@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+	<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<title>Click&Earn</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-content">
+				<div class="header__score">
+					<div class="header__score-counter">
+						<span id="timesClicked" class="header__score-counter-times">0</span>
+					</div>
+					<p class="header__score-text">YOUR SCORE</p>
+				</div>
+				<div class="header__title">
+					<h1>CLICK&EARN</h1>
+					<h2>CAKE EDITION</h2>
+				</div>
+				<div class="header__buttons">
+					<div class="header__buttons-info" data-info="info-one">
+						 <p class="info-text">INFO</p>
+						<img class="mobile-info-icon" src="question.png" alt="infoIco">
+					</div>
+					<div class="header__buttons-reset" onClick="window.location.reload()">
+						<img class="reset-button" src="redo.png" alt="resetButton">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="info" id="info-one">
+			<div class="info-background info-exit">
+				<div class="info-container">
+					<h3>JUST CLICK AND SEE WHAT SCORE YOU CAN GET!</h3>
+					<p class="info-rule">EVERY CLICK GIVES YOU 1 POINT</p>
+					<p class="info-rule">EVERY 5 SECONDS YOU GET 1 POINT</p>
+					<p class="prescription">DEVELOPED BY SNN.VY</p>
+					<button class="info-close info-exit">
+						<img src="free-icon-cross-4421536.png" alt="exit">
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="container main-container">
+			<div class="main-button" onclick="javascript:btnClick()">
+				<img class="main-button-img" src="mainPic.png" alt="mainCake">
+			</div>
+		</div>
+	</main>
+	<script src="main.js"></script>
+</body>
+</html>
